@@ -39,8 +39,8 @@ The project utilizes a rich dataset containing millions of flight itineraries, e
 *   **Airport-Specific Pricing:** Significant variations in pricing strategies exist across different airports, even for similar routes, highlighting the importance of including location-based features in the model.
 *   **Weekday Travel Patterns:** Flight activity peaks during weekdays, with a noticeable drop during weekends, reflecting typical business and leisure travel trends.
 *   **Day of Week vs. Fare:** The analysis indicated minimal variation in average flight prices across different days of the week.
-*   **Seasonality:** Airfares exhibit clear seasonal patterns, with higher prices observed during peak travel periods like summer and holidays (Fig. 5 in the report).
-*   **Skewed Distributions:** The distributions of `totalDuration` and `totalFare` are right-skewed, indicating the need for data transformations (e.g., square root) to improve model performance.
+*   **Seasonality:** Airfares exhibit clear seasonal patterns, with higher prices observed during peak travel periods like summer and holidays.
+*   **Skewed Distributions:** The distributions of `totalDuration` and `totalFare` are right-skewed, indicating the need for data transformations to improve model performance.
 *   **Correlation Highlights:**
     *   Strong positive correlations exist between `totalFare` and `travelDuration` (0.95), as well as `totalFare` and `totalTravelDistance` (0.76).
     *   A moderate negative correlation (-0.48) was found between `days_until_departure` and `fare_difference`.
